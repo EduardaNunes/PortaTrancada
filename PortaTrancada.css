@@ -1,0 +1,145 @@
+
+            body{
+                background-color: black;
+            }
+            
+            #personagem {
+                width: 100px;
+                height: 100px;
+                background-color: white;
+                position: relative;
+                left:0px;
+                top:0px;    
+            }
+            
+            #tela {
+                border: solid 3px;
+                border-color: white;
+                width: 800px;
+                height: 800px;
+                position: relative;
+            }
+            
+            #circulo1 {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                background: yellow;
+                position: absolute;
+            }
+            
+            #circulo2 {
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                background: black;
+                position: absolute;
+                left:7.5px;
+                top:7.5px;
+            }
+            
+            #corpo {
+                width: 10px;
+                height: 50px;
+                background: yellow;
+                position: absolute;
+                top:45px;
+                left:20px;
+            }
+            
+            #dente1 {
+                width: 25px;
+                height: 10px;
+                background: yellow;
+                position: absolute;
+                top:90px;
+                left:20px;
+            }
+            
+            #dente2 {
+                width: 25px;
+                height: 10px;
+                background: yellow;
+                position: absolute;
+                top:70px;
+                left:20px;
+            }
+            
+            .chave {
+                position: relative;
+                top:680px;
+                left:20px;
+            }
+            
+            .porta1 {
+                width: 150px;
+                height: 200px;
+                background-color: saddlebrown;
+                position: absolute;
+                border-radius: 50% 50% 0 0;
+                top:590px;
+                left:640px;
+                border: solid 5px;
+                border-color: chocolate;
+            }
+            
+            #porta2 {
+                width: 150px;
+                height: 200px;
+                background-color: none;
+                position: absolute;
+                border-radius: 50% 50% 0 0;
+                top:590px;
+                left:640px;
+                border: solid 5px;
+                border-color: chocolate;
+            }
+            
+            #corpo_cadeado {
+                width: 50px;
+                height: 40px;
+                background: yellow;
+                position: absolute;
+                top:95px;
+                left:50px;
+            }
+            
+            #metal_cadeado1 {
+                width: 50px;
+                height: 80px;
+                background: silver;
+                position: absolute;
+                border-radius: 50% 50% 0 0;
+                top:55px;
+                left:50px;
+            }
+            
+            #metal_cadeado2 {
+                width: 35px;
+                height: 70px;
+                background: saddlebrown;
+                position: absolute;
+                border-radius: 50% 50% 0 0;
+                top:60px;
+                left:57.5px;
+            }
+            
+            #abertura_cadeado {
+                width: 10px;
+                height: 40px;
+                background: saddlebrown;
+                position: absolute;
+                top:95px;
+                left:90px;
+            }
+            
+            #macaneta {
+               width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                background: silver;
+                position: absolute;
+                top:100px;
+                left:120px; 
+            }
+            
